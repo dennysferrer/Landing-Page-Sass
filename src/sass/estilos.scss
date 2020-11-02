@@ -10,15 +10,33 @@ $white: hsl(0, 0%, 100%);
 body {
     font-family: 'Ubuntu', sans-serif;
     margin: 0;
+    color: $grayblue;
 }
 
 .hero {
-    border: 2px solid red;
+    //border: 2px solid red;
+    text-align: center;
+}
+
+.title {
+    &__h1 {
+        border: 1px solid blue;
+        font-size: 2.1em;
+        color: $darkBlue;
+        font-weight: 300;
+        line-height: 1.4;
+    }
+}
+
+.wrapper {
+    padding: 0 2em;
 }
 
 .button {
-    border: 1px solid red;
+    //border: 1px solid red;
     padding: 1em 2em;
-    border-radius: 20px;
+    border-radius: 1.5em;
+    font-size: 1em;
     background-image: linear-gradient(to right,$limeGreen 0%,$rightCyan 100%);
+    color: $white;
 }
