@@ -16,20 +16,6 @@ body {
     color: $grayblue;
 }
 
-.hero {
-    //border: 2px solid red;
-    text-align: center;
-    .copy {
-        margin-bottom: 2.5em;
-    }
-    &__image {
-        //border: 1px solid red;
-        height: 300px;
-        background: url('../../static/images/image-mockups.png') center no-repeat, url('../../static/images/bg-intro-mobile.svg') center no-repeat; 
-        background-size: 350px;
-    }
-}
-
 .copy {
     line-height: 1.7;
     font-size: 0.9em;
@@ -60,3 +46,7 @@ body {
     background-image: linear-gradient(to right,$limeGreen 0%,$rightCyan 100%);
     color: $white;
 }
+
+@import "header.scss";
+@import "hero.scss";
+@import "menu.scss";

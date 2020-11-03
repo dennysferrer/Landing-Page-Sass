@@ -8,20 +8,6 @@ body {
   color: #9698a6;
 }
 
-.hero {
-  text-align: center;
-}
-
-.hero .copy {
-  margin-bottom: 2.5em;
-}
-
-.hero__image {
-  height: 300px;
-  background: url("../../static/images/image-mockups.png") center no-repeat, url("../../static/images/bg-intro-mobile.svg") center no-repeat;
-  background-size: 350px;
-}
-
 .copy {
   line-height: 1.7;
   font-size: 0.9em;
@@ -47,5 +33,36 @@ body {
   background-image: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
   background-image: linear-gradient(to right, #31d35c 0%, #2bb7da 100%);
   color: white;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero .copy {
+  margin-bottom: 2.5em;
+}
+
+.hero__image {
+  height: 300px;
+  margin: 0 -1.5em;
+  background: url("../../static/images/image-mockups.png") center bottom no-repeat, url("../../static/images/bg-intro-mobile.svg") center no-repeat;
+  background-size: 345px, cover;
+  margin-bottom: 1em;
+}
+
+.menu {
+  width: 25px;
+  background: url("../../static/images/icon-hamburger.svg");
 }
 /*# sourceMappingURL=estilos.css.map */
