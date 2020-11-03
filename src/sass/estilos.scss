@@ -23,8 +23,10 @@ body {
         margin-bottom: 2.5em;
     }
     &__image {
-        border: 1px solid red;
+        //border: 1px solid red;
         height: 300px;
+        background: url('../../static/images/image-mockups.png') center no-repeat, url('../../static/images/bg-intro-mobile.svg') center no-repeat; 
+        background-size: 350px;
     }
 }
 
