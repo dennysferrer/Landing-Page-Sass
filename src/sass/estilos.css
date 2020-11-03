@@ -16,6 +16,11 @@ body {
   margin-bottom: 2.5em;
 }
 
+.hero__image {
+  border: 1px solid red;
+  height: 300px;
+}
+
 .copy {
   line-height: 1.7;
   font-size: 0.9em;
